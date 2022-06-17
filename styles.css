@@ -28,6 +28,14 @@ button {
   font-family: sans-serif;
 }
 
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
+
 li {
   display: inline;
   margin: 0 25px 0;
@@ -50,7 +58,7 @@ li {
 }
 
 .navbar {
-  width: 70%;
+  width: 60%;
   text-align: center;
   color: #025157;
   font-weight: 500;
@@ -80,7 +88,7 @@ li {
 }
 
 .main {
-  margin-top: 140px;
+  margin-top: 285px;
   text-align: center;
 }
 
