@@ -86,6 +86,7 @@ li {
 
 .publish {
   /* container styles if any */
+  margin-left: 30px;
 }
 
 .publish h3 {
@@ -109,4 +110,11 @@ li {
 .publish > form p {
   color: #025157;
   margin-right: 18px;
+}
+
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
 }
