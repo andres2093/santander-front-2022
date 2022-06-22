@@ -70,3 +70,7 @@ git log
 git checkout – <filename>
 git fetch origin
 git reset –hard origin/master
+
+# Resetear cambios no guardados
+git reset --hard test
+git clean -fxd
