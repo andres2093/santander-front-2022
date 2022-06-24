@@ -263,6 +263,16 @@ iframe {
     font-size: 25px;
     line-height: 1.2;
   }
+
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .feature-image {
+    display: none;
+  }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
