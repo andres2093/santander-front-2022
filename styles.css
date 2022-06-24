@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+  font-size: 60px;
   color: #025157;
   text-align: center;
   font-family: 'Alegreya', serif;
@@ -218,6 +219,10 @@ iframe {
   .navbar,
   .actions {
     display: none;
+  }
+
+  h1 {
+    font-size: 30px;
   }
 }
 
