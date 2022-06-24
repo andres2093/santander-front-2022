@@ -131,6 +131,8 @@ li {
 iframe {
   display: flex;
   margin: auto;
+  width: 560px;
+  height: 315px;
 }
 
 .explanatory-video {
@@ -216,10 +218,10 @@ iframe {
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px){
-  .navbar,
+  /* .navbar,
   .actions {
     display: none;
-  }
+  } */
 
   .main {
     margin-top: 130px;
@@ -264,10 +266,18 @@ iframe {
     line-height: 1.2;
   }
 
+  iframe{
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
   .features {
     grid-template: repeat(4, 1fr) / 1fr;
     padding-left: 0;
     padding-right: 0;
+    height: 100%;
   }
 
   .feature-image {
