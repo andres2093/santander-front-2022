@@ -80,3 +80,28 @@ body {
     border: 0;
     border-radius: 5px;
 }
+
+.faq {
+  margin-top: 50px;
+  padding-bottom: 120px;
+}
+
+.faq h2 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+}
+
+.faq .card-header {
+  background-color: white;
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.faq h2 > button {
+  color: #025157;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.faq .card .card-body a {
+  color: #6abf4b;
+}
