@@ -348,8 +348,20 @@ iframe {
   border: 5px solid #f9da73;
 }
 
+.success-stories .card .card-body .card-circle.summit {
+  background-color: #81d742;
+  border: 5px solid #81d742;
+}
+
+.success-stories .card .card-body .card-circle.mambe {
+  background-color: #ef7179;
+  border: 5px solid #ef7179;
+}
+
 /* Los círculos deben recibir la imagen y ajustarla al tamaño */
-.success-stories .card .card-body .card-circle.everly img {
+.success-stories .card .card-body .card-circle.everly img,
+.success-stories .card .card-body .card-circle.summit img,
+.success-stories .card .card-body .card-circle.mambe img {
   object-fit: contain;
   width: 100%;
 }
@@ -421,6 +433,10 @@ iframe {
   .feature-image {
     display: none;
   }
+
+  .success-stories {
+    flex-direction: column;
+  }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
@@ -430,7 +446,10 @@ iframe {
 
 /** dispositivos medianos (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .success-stories {
+    flex-direction: column;
+    padding: 5% 15px;
+  }
 }
 
 /** dispositivos grandes (desktops) */
