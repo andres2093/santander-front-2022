@@ -41,6 +41,7 @@ body {
 
 .navbar {
     background-color: #fffbf7;
+    text-align: center;
 }
 
 .navbar-light .nav-item .nav-link {
@@ -104,4 +105,27 @@ body {
 
 .faq .card .card-body a {
   color: #6abf4b;
+}
+
+@media (max-width: 575px) {
+  .container {
+    display: flex;
+  }
+
+  .container .row {
+    flex-direction: column;
+  }
+
+  main {
+    margin-top: 130px;
+    padding: 5%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .logo {
+    width: 40%;
+  }
 }

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #fffbf7;
 }
@@ -375,6 +381,10 @@ iframe {
 
   .main {
     margin-top: 130px;
+  }
+
+  .logo {
+    width: 40%;
   }
 
   h1 {
