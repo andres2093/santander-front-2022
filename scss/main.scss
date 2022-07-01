@@ -49,4 +49,42 @@
     width: 180px;
     margin-bottom: 15px;
   }
+
+  .card-title {
+    font-size: 22px;
+    color: $gray;
+  }
+
+  .metadata {
+    font-size: 16px;
+
+    .category {
+      color: $light-green;
+    }
+  }
+
+  .card-text {
+    color: $gray;
+    font-size: 14px;
+
+    .read-more {
+      text-decoration: underline;
+    }
+  }
+
+  .author {
+    img {
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+    }
+
+    p {
+      margin-left: 5px;
+      margin-top: 10px;
+      font-weight: 500;
+      font-size: 12px;
+      color: $gray;
+    }
+  }
 }
