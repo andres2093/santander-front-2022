@@ -1,0 +1,22 @@
+{
+  "name": "santander-front-2022",
+  "version": "1.0.0",
+  "description": "https://bedu-fef.netlify.app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andres2093/santander-front-2022.git"
+  },
+  "author": "Andres Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andres2093/santander-front-2022/issues"
+  },
+  "homepage": "https://github.com/andres2093/santander-front-2022#readme",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}
