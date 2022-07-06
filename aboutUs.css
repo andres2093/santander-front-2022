@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body {
+  background-color: #fffbf7 !important;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  width: 15%;
+}
+
+.navbar {
+  background-color: #fffbf7;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+.navbar ul {
+  padding: 0;
+}
+
+.actions {
+  text-align: right;
+  font-size: 14px;
+}
+.actions > * {
+  margin: 0 10px;
+}
+.actions a {
+  color: #67b54b;
+}
+.actions button {
+  background-color: #67b54b;
+  color: white;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 5px;
+}
+
+/* Aqui van los estilos que copiamos de las otras páginas que funcionan */
+.top-features {
+  padding: 30px 0 65px;
+  margin-top: 150px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-title h1 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-weight: 700;
+}
+
+.feature__img img {
+  width: 100%;
+}
+
+.feature__title__anchor {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 24px;
+}
+.feature__title__anchor .feature__title {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 35px;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*# sourceMappingURL=aboutUs.css.map */
