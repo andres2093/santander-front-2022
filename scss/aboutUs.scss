@@ -96,3 +96,55 @@ body {
       }
     }
 }
+
+.flecha {
+  margin: 0 auto;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 35px;
+
+  .flecha-contenedor {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 65px;
+
+    .flecha-animada {
+      position: absolute;
+      animation-name: up-and-down;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      height: 130px;
+      width: 130px;
+
+      img {
+        width: 130px;
+        transform: rotate(-90deg);
+      }
+    }
+  }
+
+  @keyframes up-and-down {
+    0% {
+      top: 0; /* Aquí inicia la animación */
+    }
+
+    25% {
+      top: -30px; /* Este es el punto donde alcanza la mitad del límite de los 60px, moviéndose hacia abajo */
+    }
+
+    50% {
+      top: -60px; /* Este es el punto donde alcanza el límite de los 60px */
+    }
+
+    75% {
+      top: -30px; /* Este es el punto donde alcanza la mitad del límite de los 60px, moviéndose hacia arriba */
+    }
+
+    100% {
+      top: 0; /* Aquí termina la animación, ubicando el elemento en el punto de inicio */
+    }
+  }
+}
