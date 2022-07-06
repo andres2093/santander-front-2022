@@ -74,13 +74,23 @@ body {
   font-weight: 500;
   font-size: 24px;
 
-  .feature__title {
-    margin-top: 50px;
-    font-weight: 500;
-    font-size: 24px;
-    font-family: 'Open Sans',sans-serif;
-    margin-bottom: 35px;
-    text-decoration: none;
-    color: inherit;
-  }
+    .feature__title {
+      margin-top: 50px;
+      font-weight: 500;
+      font-size: 24px;
+      font-family: 'Open Sans',sans-serif;
+      margin-bottom: 35px;
+      text-decoration: none;
+      text-shadow: #025157 1px 1px 2px;
+      transition: color .3s ease-in-out;
+      transition: font-size 3s;
+      // transition-property: ;
+      // transition-duration: ;
+      // transition-timing-function: ;
+    
+      &:hover {
+        color:#67b54b;
+        font-size: 30px;
+      }
+    }
 }

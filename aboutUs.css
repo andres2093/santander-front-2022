@@ -74,7 +74,13 @@ body {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 35px;
   text-decoration: none;
-  color: inherit;
+  text-shadow: #025157 1px 1px 2px;
+  transition: color 0.3s ease-in-out;
+  transition: font-size 3s;
+}
+.feature__title__anchor .feature__title:hover {
+  color: #67b54b;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=aboutUs.css.map */
