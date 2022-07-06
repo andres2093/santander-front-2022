@@ -88,6 +88,7 @@ body {
   height: 130px;
   width: 130px;
   margin-bottom: 35px;
+  margin-top: 35px;
 }
 .flecha .flecha-contenedor {
   position: relative;
@@ -97,7 +98,7 @@ body {
 }
 .flecha .flecha-contenedor .flecha-animada {
   position: absolute;
-  animation-name: up-and-down;
+  animation-name: up-and-down, alrededor;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -108,6 +109,14 @@ body {
 .flecha .flecha-contenedor .flecha-animada img {
   width: 130px;
   transform: rotate(-90deg);
+}
+@keyframes alrededor {
+  from {
+    left: -270px;
+  }
+  to {
+    left: 270px;
+  }
 }
 @keyframes up-and-down {
   0% {

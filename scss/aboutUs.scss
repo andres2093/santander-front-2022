@@ -102,6 +102,7 @@ body {
   height: 130px;
   width: 130px;
   margin-bottom: 35px;
+  margin-top: 35px;
 
   .flecha-contenedor {
     position: relative;
@@ -111,7 +112,7 @@ body {
 
     .flecha-animada {
       position: absolute;
-      animation-name: up-and-down;
+      animation-name: up-and-down, alrededor;
       animation-duration: 3s;
       animation-timing-function: linear;
       animation-iteration-count: infinite;
@@ -124,6 +125,11 @@ body {
         transform: rotate(-90deg);
       }
     }
+  }
+
+  @keyframes alrededor {
+    from { left: -270px; }
+    to { left: 270px; }
   }
 
   @keyframes up-and-down {
